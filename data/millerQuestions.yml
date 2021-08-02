@@ -347,3 +347,8 @@
   URL: https://stackoverflow.com/questions/68618018/how-to-delete-blank-rows-in-csv-files-using-the-miller-command-line-tool/68618064
   verbs:
     - skip-trivial-records
+- title: How to bulk convert row data into columns on Mac Excel (transpose not suitable)?
+  URL: https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054
+  verbs:
+    - nest
+
