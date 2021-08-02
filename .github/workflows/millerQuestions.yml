@@ -3,7 +3,7 @@ name: create Miller Questions output
 on:
   push:
   repository_dispatch:
-
+  workflow_dispatch:
 
 jobs:
   scheduled:
