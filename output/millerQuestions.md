@@ -88,7 +88,7 @@
 | [csv - How to re-pivot data in bash? - Stack Overflow](https://stackoverflow.com/questions/54353222/how-to-re-pivot-data-in-bash/54356470#54356470) |  |
 | [bash - Add trailing commas to ensure .csv rows have same number of columns - Stack Overflow](https://stackoverflow.com/questions/54363812/add-trailing-commas-to-ensure-csv-rows-have-same-number-of-columns/54368097#54368097) |  |
 | [text processing - To get average of columns for all the entries whose first column entries are duplicate - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/497716/to-get-average-of-columns-for-all-the-entries-whose-first-column-entries-are-dup/497884#497884) |  |
-| [text processing - Removing duplicate entries and replacing it with comma | Bash - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/498132/removing-duplicate-entries-and-replacing-it-with-comma-bash/498150#498150) |  |
+| [text processing - Removing duplicate entries and replacing it with comma \| Bash - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/498132/removing-duplicate-entries-and-replacing-it-with-comma-bash/498150#498150) |  |
 | [text processing - How to generate a pivotal table? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/499352/how-to-generate-a-pivotal-table/499444#499444) |  |
 | [bash - delete all line after a specific date - Stack Overflow](https://stackoverflow.com/questions/54594951/delete-all-line-after-a-specific-date/54596152#54596152) |  |
 | [csv - Remove rows based on values in a column - Stack Overflow](https://stackoverflow.com/questions/54661258/remove-rows-based-on-values-in-a-column/54664933#54664933) |  |
