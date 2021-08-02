@@ -17,4 +17,4 @@ yq <"$folder"/../data/millerQuestions.yml . | mlr --j2c unsparsify then \
   rename v,verbs >"$folder"/../output/millerQuestions.csv
 
 # create markdown output
-<"$folder"/../output/millerQuestions.csv mlr --c2m put -S '$title="[".$title."]"."(".$URL.")"' then cut -x -f URL >"$folder"/../output/millerQuestions.md
+<"$folder"/../output/millerQuestions.csv mlr --c2m put -S '$title="[".$title."]"."(".$URL.")";$title=gsub($title,"[|]","\|")' then cut -x -f URL >"$folder"/../output/millerQuestions.md
