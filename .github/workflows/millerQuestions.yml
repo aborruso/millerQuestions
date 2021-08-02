@@ -1,0 +1,33 @@
+name: create Miller Questions output
+
+on:
+  push:
+  repository_dispatch:
+
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: use checkout@v2 to automate the check-out
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: install Miller, yq and dos2unix
+      run: |-
+        sudo apt-get install miller
+        sudo pip install yq
+        sudo apt-get install dos2unix
+    - name: run script
+      run: |-
+        cd ./script
+        chmod +x ./millerQuestions.sh
+        ./millerQuestions.sh
+    - name: commit and push
+      run: |-
+        git config user.name "automatic"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date --iso-8601=seconds)
+        git commit -m "questions update: ${timestamp}" || exit 0
+        git push
