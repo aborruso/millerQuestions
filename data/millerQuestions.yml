@@ -351,4 +351,9 @@
   URL: https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054
   verbs:
     - nest
+- title: How to extract columns by names from CSV file?
+  URL: https://unix.stackexchange.com/a/663792/195582
+  verbs:
+    - unsparsify
+    - cut
 
