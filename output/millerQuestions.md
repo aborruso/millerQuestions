@@ -163,3 +163,4 @@
 | [shell - Sorting csv file based on column 2 only. if 2 rows of column 2 are same, should be input file order only. should not sort based on any other column - Stack Overflow](https://stackoverflow.com/questions/59041187/sorting-csv-file-based-on-column-2-only/59041272#59041272) |  |
 | [How to delete blank rows in csv files using the Miller command line tool?](https://stackoverflow.com/questions/68618018/how-to-delete-blank-rows-in-csv-files-using-the-miller-command-line-tool/68618064) | skip-trivial-records |
 | [How to bulk convert row data into columns on Mac Excel (transpose not suitable)?](https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054) | nest |
+| [How to extract columns by names from CSV file?](https://unix.stackexchange.com/a/663792/195582) | unsparsify;cut |
