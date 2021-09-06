@@ -18,4 +18,8 @@ yq <"$folder"/../data/millerQuestions.yml . | mlr --j2c unsparsify \
 >"$folder"/../output/millerQuestions.csv
 
 # create markdown output
-<"$folder"/../output/millerQuestions.csv mlr --c2m put -S '$title="[".$title."]"."(".$URL.")";$title=gsub($title,"[|]","\|")' then cut -x -f URL >"$folder"/../output/millerQuestions.md
+<"$folder"/../output/millerQuestions.csv \
+    mlr --c2m put -S '$title="[".$title."]"."(".$URL.")";$title=gsub($title,"[|]","\|")' \
+    then put -S 'if(is_string($verbs)) {$verbs=sub($verbs,"^","`");$verbs=sub($verbs,"$","`")};' \
+    then cut -x -f URL \
+>"$folder"/../output/millerQuestions.md
