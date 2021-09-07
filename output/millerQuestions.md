@@ -1,12 +1,12 @@
 | title | verbs |
 | --- | --- |
-| [How to add new columns to CSVs with the same text in all lines](https://askubuntu.com/questions/1193534/how-to-add-new-columns-to-csvs-with-the-same-text-in-all-lines/1193544#1193544) | put;reorder |
-| [csv text-processing question](https://unix.stackexchange.com/questions/555643/csv-text-processing-question/555667#555667) | put;unsparsify;fill-down;count-similar;filter;reorder;cut |
-| [how to keep rows if there are a certain number of observations based on the first column?](https://unix.stackexchange.com/questions/558147/how-to-keep-rows-if-there-are-a-certain-number-of-observations-based-on-the-firs/558258#558258) | count-similar;filter;cut |
-| [Add Column to CSV based on Filename](https://stackoverflow.com/questions/59422250/batch-script-add-column-to-csv-based-on-filename/59426724#59426724) | put |
-| [Concatenating columns of the same csv file to create a new column with a new heading](https://unix.stackexchange.com/a/558359/195582) | put |
-| [How can I replace strings in a given column of a table using awk and regex?](https://unix.stackexchange.com/a/558362/195582) | put |
-| [JSON -> csv creating header line and padding header if found empty field](https://unix.stackexchange.com/questions/507005/json-csv-creating-header-line-and-padding-header-if-found-empty-field/560690#560690) | unsparsify |
+| [How to add new columns to CSVs with the same text in all lines](https://askubuntu.com/questions/1193534/how-to-add-new-columns-to-csvs-with-the-same-text-in-all-lines/1193544#1193544) | `put;reorder` |
+| [csv text-processing question](https://unix.stackexchange.com/questions/555643/csv-text-processing-question/555667#555667) | `put;unsparsify;fill-down;count-similar;filter;reorder;cut` |
+| [how to keep rows if there are a certain number of observations based on the first column?](https://unix.stackexchange.com/questions/558147/how-to-keep-rows-if-there-are-a-certain-number-of-observations-based-on-the-firs/558258#558258) | `count-similar;filter;cut` |
+| [Add Column to CSV based on Filename](https://stackoverflow.com/questions/59422250/batch-script-add-column-to-csv-based-on-filename/59426724#59426724) | `put` |
+| [Concatenating columns of the same csv file to create a new column with a new heading](https://unix.stackexchange.com/a/558359/195582) | `put` |
+| [How can I replace strings in a given column of a table using awk and regex?](https://unix.stackexchange.com/a/558362/195582) | `put` |
+| [JSON -> csv creating header line and padding header if found empty field](https://unix.stackexchange.com/questions/507005/json-csv-creating-header-line-and-padding-header-if-found-empty-field/560690#560690) | `unsparsify` |
 | [How to convert yaml to csv file format?](https://askubuntu.com/questions/941477/how-to-convert-yaml-to-csv-file-format/1201270#1201270) |  |
 | [Shard CSV based on time values](https://stackoverflow.com/questions/59673777/shard-csv-based-on-time-values/59682909#59682909) |  |
 | [How to parse Stdout as a mix of CSV and JSON?](https://unix.stackexchange.com/questions/561467/how-to-parse-stdout-as-a-mix-of-csv-and-json/561576#561576) |  |
@@ -161,6 +161,6 @@
 | [grel - How to merge rows in OpenRefine - Stack Overflow](https://stackoverflow.com/questions/58677751/how-to-merge-rows-in-openrefine/58814336#58814336) |  |
 | [linux - Merge content of two csv file side by side in bash - Stack Overflow](https://stackoverflow.com/questions/58961650/merge-content-of-two-csv-file-side-by-side-in-bash/58964168#58964168) |  |
 | [shell - Sorting csv file based on column 2 only. if 2 rows of column 2 are same, should be input file order only. should not sort based on any other column - Stack Overflow](https://stackoverflow.com/questions/59041187/sorting-csv-file-based-on-column-2-only/59041272#59041272) |  |
-| [How to delete blank rows in csv files using the Miller command line tool?](https://stackoverflow.com/questions/68618018/how-to-delete-blank-rows-in-csv-files-using-the-miller-command-line-tool/68618064) | skip-trivial-records |
-| [How to bulk convert row data into columns on Mac Excel (transpose not suitable)?](https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054) | nest |
-| [How to extract columns by names from CSV file?](https://unix.stackexchange.com/a/663792/195582) | unsparsify;cut |
+| [How to delete blank rows in csv files using the Miller command line tool?](https://stackoverflow.com/questions/68618018/how-to-delete-blank-rows-in-csv-files-using-the-miller-command-line-tool/68618064) | `skip-trivial-records` |
+| [How to bulk convert row data into columns on Mac Excel (transpose not suitable)?](https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054) | `nest` |
+| [How to extract columns by names from CSV file?](https://unix.stackexchange.com/a/663792/195582) | `unsparsify;cut` |
