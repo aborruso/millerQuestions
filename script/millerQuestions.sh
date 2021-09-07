@@ -4,6 +4,7 @@ set -x
 set -e
 set -u
 set -o pipefail
+alias mlr='mlr.linux.x86_64'
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -20,6 +21,6 @@ yq <"$folder"/../data/millerQuestions.yml . | mlr --j2c unsparsify \
 # create markdown output
 <"$folder"/../output/millerQuestions.csv \
     mlr --c2m put -S '$title="[".$title."]"."(".$URL.")";$title=gsub($title,"[|]","\|")' \
-    then put -S 'if(is_string($verbs)) {$verbs=sub($verbs,"^(.+)$","`"."\1"."`")};' \
+    then put -S 'if(is_string($verbs)) {$verbs = "`" . $verbs . "`"};' \
     then cut -x -f URL \
 >"$folder"/../output/millerQuestions.md
