@@ -164,3 +164,8 @@
 | [How to delete blank rows in csv files using the Miller command line tool?](https://stackoverflow.com/questions/68618018/how-to-delete-blank-rows-in-csv-files-using-the-miller-command-line-tool/68618064) | `skip-trivial-records` |
 | [How to bulk convert row data into columns on Mac Excel (transpose not suitable)?](https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054) | `nest` |
 | [How to extract columns by names from CSV file?](https://unix.stackexchange.com/a/663792/195582) | `unsparsify;cut` |
+| [i need to extract datafor a set of particular coloumn number of a csv file](https://stackoverflow.com/a/69737753/757714) | `cut` |
+| [Is there any simple option to convert csv file to JSONL file?](https://stackoverflow.com/a/69718539/757714) | `cat` |
+| [How to get a value of key from csv file sing bash script?](https://stackoverflow.com/a/69637632/757714) | `cut;filter` |
+| [Merge three columns in one (linux, python, or perl)](https://stackoverflow.com/a/69614410/757714) | `put;cut` |
+| [Remove CR+LF from a cell in CSV file](https://unix.stackexchange.com/a/671140/195582) | `put` |
