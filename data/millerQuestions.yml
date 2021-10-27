@@ -356,4 +356,25 @@
   verbs:
     - unsparsify
     - cut
-
+- title: i need to extract datafor a set of particular coloumn number of a csv file
+  URL: https://stackoverflow.com/a/69737753/757714
+  verbs:
+    - cut
+- title: Is there any simple option to convert csv file to JSONL file?
+  URL: https://stackoverflow.com/a/69718539/757714
+  verbs:
+    - cat
+- title: How to get a value of key from csv file sing bash script?
+  URL: https://stackoverflow.com/a/69637632/757714
+  verbs:
+    - cut
+    - filter
+- title: Merge three columns in one (linux, python, or perl)
+  URL: https://stackoverflow.com/a/69614410/757714
+  verbs:
+    - put
+    - cut
+- title: Remove CR+LF from a cell in CSV file
+  URL: https://unix.stackexchange.com/a/671140/195582
+  verbs:
+    - put
