@@ -378,3 +378,9 @@
   URL: https://unix.stackexchange.com/a/671140/195582
   verbs:
     - put
+- title: Seeking tool to create an empty column in a CSV file and a columns with a fixed value
+  URL: https://stackoverflow.com/q/70099058/757714
+  verbs:
+    - put
+    - cut
+    - reorder
