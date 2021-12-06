@@ -169,3 +169,4 @@
 | [How to get a value of key from csv file sing bash script?](https://stackoverflow.com/a/69637632/757714) | `cut;filter` |
 | [Merge three columns in one (linux, python, or perl)](https://stackoverflow.com/a/69614410/757714) | `put;cut` |
 | [Remove CR+LF from a cell in CSV file](https://unix.stackexchange.com/a/671140/195582) | `put` |
+| [Seeking tool to create an empty column in a CSV file and a columns with a fixed value](https://stackoverflow.com/q/70099058/757714) | `put;cut;reorder` |
