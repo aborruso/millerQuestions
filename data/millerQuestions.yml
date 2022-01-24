@@ -384,3 +384,8 @@
     - put
     - cut
     - reorder
+- title: How to split a large CSV file into multiple JSON files using the Miller command line tool?
+  URL: https://stackoverflow.com/a/70649336/757714
+  verbs:
+    - tee
+    - put
