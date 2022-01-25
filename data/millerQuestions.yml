@@ -389,3 +389,7 @@
   verbs:
     - tee
     - put
+- title: How to quickly replace all semicolons with commas in a huge csv file on windows?
+  URL: https://stackoverflow.com/a/70389648/757714
+  verbs:
+    - cat
