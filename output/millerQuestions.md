@@ -171,3 +171,4 @@
 | [Remove CR+LF from a cell in CSV file](https://unix.stackexchange.com/a/671140/195582) | `put` |
 | [Seeking tool to create an empty column in a CSV file and a columns with a fixed value](https://stackoverflow.com/q/70099058/757714) | `put;cut;reorder` |
 | [How to split a large CSV file into multiple JSON files using the Miller command line tool?](https://stackoverflow.com/a/70649336/757714) | `tee;put` |
+| [How to quickly replace all semicolons with commas in a huge csv file on windows?](https://stackoverflow.com/a/70389648/757714) | `cat` |
