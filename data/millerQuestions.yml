@@ -393,3 +393,9 @@
   URL: https://stackoverflow.com/a/70389648/757714
   verbs:
     - cat
+- title: Upsert a csv file from a second file using bash
+  URL: https://stackoverflow.com/a/71122543/757714
+  verbs:
+    - join
+    - put
+    - cut
