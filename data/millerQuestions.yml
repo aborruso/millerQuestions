@@ -84,7 +84,7 @@
 - title: I want to convert list of json files to csv with only specific attributes
   URL: https://stackoverflow.com/questions/61819131/i-want-to-convert-list-of-json-files-to-csv-with-only-specific-attributes/61835027#61835027
 - title: CSV Filtering a column with mixed data types
-  URL: https://stackoverflow.com/a/62099705/757714
+  URL: https://stackoverflow.com/a/62099705
 - title: (AWK) Csv separating same variables in columns into different files
   URL: https://unix.stackexchange.com/questions/590911/awk-csv-separating-same-variables-in-columns-into-different-files/591041#591041
 - title: GROUP BY CSV columns in bash
@@ -140,7 +140,7 @@
 - title: awk extract columns that meet condition
   URL: https://unix.stackexchange.com/a/651415/195582
 - title: Is it possible to rename multiple columns of a CSV to empty columns when using miller?
-  URL: https://stackoverflow.com/a/68452078/757714
+  URL: https://stackoverflow.com/a/68452078
 - title: How to merge multiple Mac excel files all with headers that are the same but out of order
   URL: https://superuser.com/questions/1666750/how-to-merge-multiple-mac-excel-files-all-with-headers-that-are-the-same-but-out/1666899#1666899
 - title: SED delete csv column if exists - Unix & Linux Stack Exchange
@@ -357,20 +357,20 @@
     - unsparsify
     - cut
 - title: i need to extract datafor a set of particular coloumn number of a csv file
-  URL: https://stackoverflow.com/a/69737753/757714
+  URL: https://stackoverflow.com/a/69737753
   verbs:
     - cut
 - title: Is there any simple option to convert csv file to JSONL file?
-  URL: https://stackoverflow.com/a/69718539/757714
+  URL: https://stackoverflow.com/a/69718539
   verbs:
     - cat
 - title: How to get a value of key from csv file sing bash script?
-  URL: https://stackoverflow.com/a/69637632/757714
+  URL: https://stackoverflow.com/a/69637632
   verbs:
     - cut
     - filter
 - title: Merge three columns in one (linux, python, or perl)
-  URL: https://stackoverflow.com/a/69614410/757714
+  URL: https://stackoverflow.com/a/69614410
   verbs:
     - put
     - cut
@@ -379,23 +379,30 @@
   verbs:
     - put
 - title: Seeking tool to create an empty column in a CSV file and a columns with a fixed value
-  URL: https://stackoverflow.com/q/70099058/757714
+  URL: https://stackoverflow.com/q/70099058
   verbs:
     - put
     - cut
     - reorder
 - title: How to split a large CSV file into multiple JSON files using the Miller command line tool?
-  URL: https://stackoverflow.com/a/70649336/757714
+  URL: https://stackoverflow.com/a/70649336
   verbs:
     - tee
     - put
 - title: How to quickly replace all semicolons with commas in a huge csv file on windows?
-  URL: https://stackoverflow.com/a/70389648/757714
+  URL: https://stackoverflow.com/a/70389648
   verbs:
     - cat
 - title: Upsert a csv file from a second file using bash
-  URL: https://stackoverflow.com/a/71122543/757714
+  URL: https://stackoverflow.com/a/71122543
   verbs:
     - join
     - put
     - cut
+- title: Convert field names to lower case using miller
+  URL: https://stackoverflow.com/a/71742799
+  verbs:
+    - put
+
+
+
