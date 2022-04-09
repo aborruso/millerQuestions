@@ -31,7 +31,7 @@
 | [How to append additional text found in a duplicate entry to the original text](https://superuser.com/questions/1540589/how-to-append-additional-text-found-in-a-duplicate-entry-to-the-original-text/1543477#1543477) |  |
 | [Concatenate matching ids from two files, with other columns from both files](https://unix.stackexchange.com/questions/583795/concatenate-matching-ids-from-two-files-with-other-columns-from-both-files/583821#583821) |  |
 | [I want to convert list of json files to csv with only specific attributes](https://stackoverflow.com/questions/61819131/i-want-to-convert-list-of-json-files-to-csv-with-only-specific-attributes/61835027#61835027) |  |
-| [CSV Filtering a column with mixed data types](https://stackoverflow.com/a/62099705/757714) |  |
+| [CSV Filtering a column with mixed data types](https://stackoverflow.com/a/62099705) |  |
 | [(AWK) Csv separating same variables in columns into different files](https://unix.stackexchange.com/questions/590911/awk-csv-separating-same-variables-in-columns-into-different-files/591041#591041) |  |
 | [GROUP BY CSV columns in bash](https://stackoverflow.com/questions/62252413/group-by-csv-columns-in-bash/62258153#62258153) |  |
 | [vlookup using UNIX shell](https://unix.stackexchange.com/questions/592517/vlookup-using-unix-shell/592980#592980) |  |
@@ -59,7 +59,7 @@
 | [converting space separated file into csv format in linux](https://stackoverflow.com/questions/66456419/converting-space-separated-file-into-csv-format-in-linux/66477278#66477278) |  |
 | [Bash to send variable value to csv?](https://unix.stackexchange.com/questions/650580/bash-to-send-variable-value-to-csv/650724#650724) |  |
 | [awk extract columns that meet condition](https://unix.stackexchange.com/a/651415/195582) |  |
-| [Is it possible to rename multiple columns of a CSV to empty columns when using miller?](https://stackoverflow.com/a/68452078/757714) |  |
+| [Is it possible to rename multiple columns of a CSV to empty columns when using miller?](https://stackoverflow.com/a/68452078) |  |
 | [How to merge multiple Mac excel files all with headers that are the same but out of order](https://superuser.com/questions/1666750/how-to-merge-multiple-mac-excel-files-all-with-headers-that-are-the-same-but-out/1666899#1666899) |  |
 | [SED delete csv column if exists - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/492434/sed-delete-csv-column-if-exists/492534#492534) |  |
 | [sed - Parsing CSV that has multiple line values with carriage returns - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/486655/parsing-csv-that-has-multiple-line-values-with-carriage-returns/491748#491748) |  |
@@ -164,12 +164,13 @@
 | [How to delete blank rows in csv files using the Miller command line tool?](https://stackoverflow.com/questions/68618018/how-to-delete-blank-rows-in-csv-files-using-the-miller-command-line-tool/68618064) | `skip-trivial-records` |
 | [How to bulk convert row data into columns on Mac Excel (transpose not suitable)?](https://superuser.com/questions/1667011/how-to-bulk-convert-row-data-into-columns-on-mac-excel-transpose-not-suitable/1667054#1667054) | `nest` |
 | [How to extract columns by names from CSV file?](https://unix.stackexchange.com/a/663792/195582) | `unsparsify;cut` |
-| [i need to extract datafor a set of particular coloumn number of a csv file](https://stackoverflow.com/a/69737753/757714) | `cut` |
-| [Is there any simple option to convert csv file to JSONL file?](https://stackoverflow.com/a/69718539/757714) | `cat` |
-| [How to get a value of key from csv file sing bash script?](https://stackoverflow.com/a/69637632/757714) | `cut;filter` |
-| [Merge three columns in one (linux, python, or perl)](https://stackoverflow.com/a/69614410/757714) | `put;cut` |
+| [i need to extract datafor a set of particular coloumn number of a csv file](https://stackoverflow.com/a/69737753) | `cut` |
+| [Is there any simple option to convert csv file to JSONL file?](https://stackoverflow.com/a/69718539) | `cat` |
+| [How to get a value of key from csv file sing bash script?](https://stackoverflow.com/a/69637632) | `cut;filter` |
+| [Merge three columns in one (linux, python, or perl)](https://stackoverflow.com/a/69614410) | `put;cut` |
 | [Remove CR+LF from a cell in CSV file](https://unix.stackexchange.com/a/671140/195582) | `put` |
-| [Seeking tool to create an empty column in a CSV file and a columns with a fixed value](https://stackoverflow.com/q/70099058/757714) | `put;cut;reorder` |
-| [How to split a large CSV file into multiple JSON files using the Miller command line tool?](https://stackoverflow.com/a/70649336/757714) | `tee;put` |
-| [How to quickly replace all semicolons with commas in a huge csv file on windows?](https://stackoverflow.com/a/70389648/757714) | `cat` |
-| [Upsert a csv file from a second file using bash](https://stackoverflow.com/a/71122543/757714) | `join;put;cut` |
+| [Seeking tool to create an empty column in a CSV file and a columns with a fixed value](https://stackoverflow.com/q/70099058) | `put;cut;reorder` |
+| [How to split a large CSV file into multiple JSON files using the Miller command line tool?](https://stackoverflow.com/a/70649336) | `tee;put` |
+| [How to quickly replace all semicolons with commas in a huge csv file on windows?](https://stackoverflow.com/a/70389648) | `cat` |
+| [Upsert a csv file from a second file using bash](https://stackoverflow.com/a/71122543) | `join;put;cut` |
+| [Convert field names to lower case using miller](https://stackoverflow.com/a/71742799) | `put` |
